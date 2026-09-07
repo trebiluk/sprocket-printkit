@@ -1,0 +1,8 @@
+{
+  "name": "Sprocket",
+  "short_name": "Sprocket",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F3F4F5",
+  "theme_color": "#14B8C2"
+}
