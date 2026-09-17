@@ -3,18 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#14B8C2">
+  <meta name="theme-color" content="#0E8A92">
   <title>Sprocket</title>
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./icon.svg">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body class="dark">
   <header class="topbar">
-    <div class="brand">Sprocket</div>
-    <button type="button" id="mode-btn">Big type</button>
+    <div class="brand">Sprocket <span class="verchip">1.3.0</span></div>
+    <div class="tools">
+      <button type="button" id="dark-btn">Dark</button>
+      <button type="button" id="mode-btn">Big type</button>
+    </div>
   </header>
-  <main id="app"></main>
+  <main id="app">
+    <div class="wrap">
+      <div class="card">
+        <h1>Shop desk</h1>
+        <p class="muted">If this message stays, app.js did not load. Open Sprocket.html or hard-refresh.</p>
+      </div>
+    </div>
+  </main>
   <nav class="nav" aria-label="Main">
     <button type="button" class="on" data-tab="home"><span>⌂</span>Home</button>
     <button type="button" data-tab="convert"><span>↔</span>Convert</button>
